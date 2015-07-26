@@ -181,6 +181,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\5sCover.png" />
+    <Content Include="Images\5sExample.png" />
+    <Content Include="Images\8.4Garden.png" />
+    <Content Include="Images\8.4Office.png" />
     <Content Include="Images\AlethiCorp.png" />
     <Content Include="Images\arxiv.jpg" />
     <Content Include="Images\Background.jpg" />
