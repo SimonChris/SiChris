@@ -259,6 +259,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\ContactJuggling.cshtml" />
     <Content Include="Views\Home\Donate.cshtml" />
+    <Content Include="Views\Games\AlethiCorp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
