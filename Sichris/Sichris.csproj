@@ -208,6 +208,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\thesis.pdf" />
+    <Content Include="Images\PataNoirScreenshots.zip" />
     <None Include="Properties\PublishProfiles\SiChris %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\SiChris %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\SiChris %284%29.pubxml" />
