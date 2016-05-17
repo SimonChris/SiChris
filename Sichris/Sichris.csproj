@@ -192,6 +192,11 @@
     <Content Include="Images\Background.jpg" />
     <Content Include="Images\Bio.jpg" />
     <Content Include="Images\Chicken.jpg" />
+    <Content Include="Images\PataNoir1.png" />
+    <Content Include="Images\PataNoir2.png" />
+    <Content Include="Images\PataNoir3.png" />
+    <Content Include="Images\PataNoir4.png" />
+    <Content Include="Images\PataNoir5.png" />
     <Content Include="Images\PataNoirRounded.png" />
     <Content Include="Images\Itch.png" />
     <Content Include="Images\PataNoir.png" />
