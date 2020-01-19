@@ -193,7 +193,9 @@
     <Content Include="Images\arxiv.jpg" />
     <Content Include="Images\Background.jpg" />
     <Content Include="Images\Bio.jpg" />
+    <Content Include="Images\Capacity.jpg" />
     <Content Include="Images\Chicken.jpg" />
+    <Content Include="Images\KeshiYena.jpg" />
     <Content Include="Images\PataNoir1.png" />
     <Content Include="Images\PataNoir2.png" />
     <Content Include="Images\PataNoir3.png" />
