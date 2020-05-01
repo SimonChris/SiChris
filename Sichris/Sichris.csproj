@@ -194,6 +194,7 @@
     <Content Include="Images\Background.jpg" />
     <Content Include="Images\Bio.jpg" />
     <Content Include="Images\Capacity.jpg" />
+    <Content Include="Images\Cat.png" />
     <Content Include="Images\CatBox.jpg" />
     <Content Include="Images\Chicken.jpg" />
     <Content Include="Images\KeshiYena.jpg" />
