@@ -222,6 +222,7 @@
     <Content Include="Content\thesis.pdf" />
     <Content Include="Images\PataNoirScreenshots.zip" />
     <Content Include="Content\EldritchLake.pdf" />
+    <Content Include="Content\Chicken.gblorb" />
     <None Include="Properties\PublishProfiles\SiChris %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\SiChris %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\SiChris %284%29.pubxml" />
