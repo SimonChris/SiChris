@@ -197,6 +197,13 @@
     <Content Include="Images\Cat.png" />
     <Content Include="Images\CatBox.jpg" />
     <Content Include="Images\Chicken.jpg" />
+    <Content Include="Images\CuffFront.png" />
+    <Content Include="Images\CuffRevolver.png" />
+    <Content Include="Images\CuffStart.png" />
+    <Content Include="Images\CuffTOC.png" />
+    <Content Include="Images\CuffTurn.png" />
+    <Content Include="Images\CuffTutorial.png" />
+    <Content Include="Images\CuffVideo.png" />
     <Content Include="Images\KeshiYena.jpg" />
     <Content Include="Images\PataNoir1.png" />
     <Content Include="Images\PataNoir2.png" />
