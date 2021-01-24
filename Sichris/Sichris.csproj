@@ -223,6 +223,7 @@
     <Content Include="Images\Marble.jpg" />
     <Content Include="Images\PataNoir.jpg" />
     <Content Include="Images\steam-button.png" />
+    <Content Include="Images\Twitter.png" />
     <Content Include="Images\Watch.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
