@@ -33,6 +33,7 @@ namespace Sichris.Controllers
         public ActionResult Contact()
         {
           ViewBag.Email = "simon@sichris.com";
+          ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
           return View();
         }
 

@@ -165,6 +165,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\PoetryController.cs" />
     <Compile Include="Controllers\FictionController.cs" />
     <Compile Include="Controllers\GamesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -290,6 +291,7 @@
     <Content Include="Views\Home\Donate.cshtml" />
     <Content Include="Views\Games\AlethiCorp.cshtml" />
     <Content Include="Views\Fiction\Index.cshtml" />
+    <Content Include="Views\Poetry\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

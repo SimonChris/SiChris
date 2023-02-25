@@ -19,15 +19,19 @@
                 </button>
                 @Html.ActionLink("SiChris Productions", "Index", "Home", null, new { @class = "navbar-brand" })
             </div>
+            @{
+                ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
+            }
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Games", "", "Games")</li>
                     <li>@Html.ActionLink("Fiction", "", "Fiction")</li>
+                    <li>@Html.ActionLink("Poetry", "", "Poetry")</li>
                     <li>@Html.ActionLink("Tech Support", "Support", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>
-                        <a rel="me" target="_blank" href="https://mastodon.gamedev.place/&#64;simonchris1729">
-                            <img src="../Images/MastodonLogo.png" alt="Twitter" width="19" height="20" />
+                        <a rel="me" href="@ViewBag.Mastodon">
+                            <img src="../Images/MastodonLogo.png" width="19" height="20" />
                         </a>
                     </li>
                 </ul>
