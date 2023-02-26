@@ -201,6 +201,7 @@
     <Content Include="Images\Cat.png" />
     <Content Include="Images\CatBox.jpg" />
     <Content Include="Images\Chicken.jpg" />
+    <Content Include="Images\Clock.png" />
     <Content Include="Images\CuffFront.png" />
     <Content Include="Images\CuffRevolver.png" />
     <Content Include="Images\CuffStart.png" />
