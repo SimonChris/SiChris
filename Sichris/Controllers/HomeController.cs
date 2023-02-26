@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sichris.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,8 @@ namespace Sichris.Controllers
         {
             Random random = new Random();
             ViewBag.Number = random.Next(0, 3);
+
+            AnalyticsModel.IncrementCount("Home");
             return View();
         }
 
@@ -22,6 +25,8 @@ namespace Sichris.Controllers
 
         public ActionResult Support()
         {
+            AnalyticsModel.IncrementCount("Support");
+
             return View();
         }
 
@@ -32,9 +37,10 @@ namespace Sichris.Controllers
 
         public ActionResult Contact()
         {
-          ViewBag.Email = "simon@sichris.com";
-          ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
-          return View();
+            AnalyticsModel.IncrementCount("Contact");
+            ViewBag.Email = "simon@sichris.com";
+            ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
+            return View();
         }
 
         public ActionResult ContactJuggling()

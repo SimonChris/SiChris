@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sichris.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,9 @@ namespace Sichris.Controllers
     //
     // GET: /Fiction/
     public ActionResult Index() {
-      return View();
+        AnalyticsModel.IncrementCount("Fiction");
+
+        return View();
     }
   }
 }

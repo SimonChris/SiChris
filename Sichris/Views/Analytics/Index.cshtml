@@ -1,0 +1,21 @@
+﻿@{
+  ViewBag.Title = "SiChris Productions";
+}
+
+<div class="jumbotron">
+  <p class="lead">
+    Analytics
+  </p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>StartDate: @ViewBag.StartDate</p>
+        <p>Home: @ViewBag.AnalyticsData["Home"]</p>
+        <p>Games: @ViewBag.AnalyticsData["Games"]</p>
+        <p>Fiction: @ViewBag.AnalyticsData["Fiction"]</p>
+        <p>Poetry: @ViewBag.AnalyticsData["Poetry"]</p>
+        <p>Support: @ViewBag.AnalyticsData["Support"]</p>
+        <p>Contact: @ViewBag.AnalyticsData["Contact"]</p>
+    </div>
+</div>
