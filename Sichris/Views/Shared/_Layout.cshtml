@@ -21,6 +21,7 @@
             </div>
             @{
                 ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
+                ViewBag.Bluesky = "https://bsky.app/profile/simonchris.bsky.social";
             }
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -29,6 +30,11 @@
                     <li>@Html.ActionLink("Poetry", "", "Poetry")</li>
                     <li>@Html.ActionLink("Tech Support", "Support", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>
+                        <a rel="me" target="_blank" href="@ViewBag.Bluesky">
+                            <img src="../Images/Bluesky.png" width="19" height="20" />
+                        </a>
+                    </li>
                     <li>
                         <a rel="me" target="_blank" href="@ViewBag.Mastodon">
                             <img src="../Images/MastodonLogo.png" width="19" height="20" />

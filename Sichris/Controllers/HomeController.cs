@@ -40,6 +40,7 @@ namespace Sichris.Controllers
             AnalyticsModel.IncrementCount("Contact");
             ViewBag.Email = "simon@sichris.com";
             ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
+            ViewBag.Bluesky = "https://bsky.app/profile/simonchris.bsky.social";
             return View();
         }
 

@@ -236,6 +236,7 @@
     <Content Include="Images\steam-button.png" />
     <Content Include="Images\Twitter.png" />
     <Content Include="Images\Watch.jpg" />
+    <Content Include="Images\Wondrous.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\thesis.pdf" />
