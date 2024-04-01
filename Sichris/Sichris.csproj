@@ -184,6 +184,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Background.jpg" />
+    <Content Include="Content\DNP.jpg" />
+    <Content Include="Content\Pierian.jpg" />
     <Content Include="Images\Anaximancy.jpg" />
     <Content Include="Images\Bluesky.png" />
     <Content Include="Images\CapacityTitle.jpg" />
