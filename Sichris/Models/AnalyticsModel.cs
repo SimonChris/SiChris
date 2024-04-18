@@ -14,6 +14,7 @@ namespace Sichris.Models
             AnalyticsData["Games"] = 0;
             AnalyticsData["Fiction"] = 0;
             AnalyticsData["Poetry"] = 0;
+            AnalyticsData["Science"] = 0;
             AnalyticsData["Support"] = 0;
             AnalyticsData["Contact"] = 0;
         }
