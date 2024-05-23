@@ -30,6 +30,7 @@
             @{
                 ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
                 ViewBag.Bluesky = "https://bsky.app/profile/simonchris.bsky.social";
+                ViewBag.Threads = "https://www.threads.net/@simonchris1729";
             }
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -39,6 +40,11 @@
                     <li>@Html.ActionLink("Science", "", "Science")</li>
                     <li>@Html.ActionLink("Tech Support", "Support", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>
+                        <a rel="me" target="_blank" href="@ViewBag.Threads">
+                            <img src="../Images/Threads.png" width="19" height="20" />
+                        </a>
+                    </li>
                     <li>
                         <a rel="me" target="_blank" href="@ViewBag.Bluesky">
                             <img src="../Images/Bluesky.png" width="19" height="20" />

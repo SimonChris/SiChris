@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44399</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -237,6 +237,7 @@
     <Content Include="Images\PowerArmor.jpg" />
     <Content Include="Images\RefugeeBoat.jpg" />
     <Content Include="Images\steam-button.png" />
+    <Content Include="Images\Threads.png" />
     <Content Include="Images\Twitter.png" />
     <Content Include="Images\Watch.jpg" />
     <Content Include="Images\Wondrous.jpg" />
@@ -334,7 +335,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49740</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49740/</IISUrl>
+          <IISUrl>https://localhost:44399</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

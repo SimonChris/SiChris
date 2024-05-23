@@ -41,6 +41,7 @@ namespace Sichris.Controllers
             ViewBag.Email = "simon@sichris.com";
             ViewBag.Mastodon = "https://mastodon.gamedev.place/@simonchris1729";
             ViewBag.Bluesky = "https://bsky.app/profile/simonchris.bsky.social";
+            ViewBag.Threads = "https://www.threads.net/@simonchris1729";
             return View();
         }
 
